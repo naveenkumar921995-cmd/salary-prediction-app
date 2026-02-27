@@ -1,27 +1,23 @@
-# 💼 Salary Prediction App
+## 💼 Salary Prediction App
 
-A Machine Learning web application that predicts salary based on years of experience using Linear Regression.
+An end-to-end Machine Learning project that predicts salary based on years of experience using Simple Linear Regression.
 
-## 🚀 Live Demo
-(Will add Streamlit link here after deployment)
+### 🔍 Features
+- Model training & evaluation
+- Regression visualization
+- Real-time salary prediction
+- Streamlit deployment
 
-## 📌 Features
-- Predict salary instantly
-- Clean UI built with Streamlit
-- Trained using Linear Regression
-- Real-time prediction
+### 📈 Model Performance
+- R² Score (Train): 0.97+
+- R² Score (Test): 0.98+
 
-## 🛠 Tech Stack
+### 🚀 Live Demo
+https://salary-prediction-app-mjzw69p2bqg9jxtd8gdcga.streamlit.app/
+
+### 🛠 Built With
 - Python
-- Scikit-Learn
+- Pandas
 - NumPy
+- Scikit-Learn
 - Streamlit
-
-## 📊 Model
-Simple Linear Regression trained on salary dataset.
-
-## 📦 Installation
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
